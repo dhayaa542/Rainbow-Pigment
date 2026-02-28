@@ -124,7 +124,11 @@
                         <h3 style="font-size:1.5rem; margin-bottom:0.5rem;">Send Us an Inquiry</h3>
                         <p style="color:var(--text-light); margin-bottom:1.5rem; font-size:0.92rem;">Fill in the details
                             below and we'll get back to you within 24 hours.</p>
-                        <form data-form="contact" id="contactForm">
+                        <form action="https://formsubmit.co/rainbowpigment@gmail.com" method="POST" id="contactForm">
+                            <input type="hidden" name="_subject" value="New Inquiry from Rainbow Pigment Website">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="https://rainbowpigment.com/contact.html">
                             <div class="form-grid">
                                 <div class="form-group">
                                     <label for="contact-name">Your Name *</label>
